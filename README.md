@@ -1,6 +1,6 @@
 # CVGen Template
 
-A template repository for creating multi-language, multi-version CVs using CVGen and RenderCV.
+A template repository for creating multi-language, multi-version CVs using [CVGen](https://github.com/isnbh0/cvgen) and [RenderCV](https://github.com/rendercv/rendercv).
 
 ## Quick Start
 
@@ -39,4 +39,4 @@ All demo PDFs will be generated in the `.demo/` directory with descriptive filen
 
 ## Documentation
 
-See [CVGEN_REFERENCE.md](CVGEN_REFERENCE.md) for complete documentation on how to use CVGen to create your own customizable CV.
+See [CVGEN_REFERENCE.md](CVGEN_REFERENCE.md) for complete documentation on how to use [CVGen](https://github.com/isnbh0/cvgen) to create your own customizable CV.
