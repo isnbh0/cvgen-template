@@ -293,6 +293,8 @@ sections:
 
 ## Tagging System
 
+> **⚠️ Alpha Feature:** The tagging system is currently in alpha. The API and behavior may change in future releases.
+
 Tags allow you to categorize and filter content based on arbitrary labels.
 
 ### Section Tags
@@ -661,14 +663,17 @@ make demo
 make clean
 ```
 
-The `make demo` command generates 8 different PDFs in the `.demo/` directory:
-- **Brief versions** (verbosity 1.0): Minimal content in Korean and English
-- **Standard versions** (verbosity 1.5): Medium detail in Korean and English
-- **Detailed versions** (verbosity 2.0): Full content in Korean and English
-- **Clean version**: Without the technologies section (excluding "detail" tag)
-- **Tech-only version**: Only the technologies section (including "detail" tag)
+The `make demo` command generates 8 different PDFs in the `.demo/` directory, organized into categories:
 
-This is a great way to see how verbosity levels and tags affect your CV output!
+**Verbosity + Language Examples:**
+- Brief, standard, and detailed versions in both English and Korean
+- Showcases how verbosity filtering (1.0, 1.5, 2.0) works across languages
+
+**Tag-Based Filtering Examples (Alpha):**
+- Academic-only CV (showing tag inclusion)
+- CV without technologies section (showing tag exclusion)
+
+This demonstrates the core CVGen features: multi-language support and verbosity filtering, with a glimpse of the alpha tagging system!
 
 ---
 

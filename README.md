@@ -27,12 +27,12 @@ make clean
 
 ## Demo
 
-Run `make demo` to generate 8 different CV versions showcasing:
-- Different verbosity levels (brief, standard, detailed)
-- Multi-language support (English and Korean)
-- Tag-based filtering (with/without technical details)
+Run `make demo` to generate different CV versions showcasing:
+- **Verbosity filtering**: Brief (1.0), standard (1.5), and detailed (2.0) versions
+- **Multi-language**: Generate CVs in English and Korean
+- **Tag-based filtering** _(alpha)_: Filter by content categories like academic or industry
 
-All demo PDFs will be generated in the `.demo/` directory.
+All demo PDFs will be generated in the `.demo/` directory with descriptive filenames.
 
 ## Documentation
 
