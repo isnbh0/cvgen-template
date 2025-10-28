@@ -11,6 +11,9 @@ uv sync
 # Generate default Korean CV
 make
 
+# Generate CV from custom input file
+make with INPUT=example_cv.yaml
+
 # See all filtering capabilities in action
 make demo
 
