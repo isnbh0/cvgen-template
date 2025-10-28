@@ -1,0 +1,11 @@
+[project]
+name = "cv"
+version = "0.1.0"
+description = "A short description of the project."
+authors = [{ name = "Your Name", email = "your.email@example.com" }]
+requires-python = ">=3.13.3"
+dependencies = ["cvgen", "rendercv[full]>=2.0,<3.0"]
+readme = "README.md"
+
+[tool.uv.sources]
+cvgen = { git = "ssh://git@github.com/isnbh0/cvgen.git", rev = "main" }
